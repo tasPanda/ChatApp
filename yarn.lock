@@ -3722,10 +3722,10 @@ cliui@^6.0.0:
     strip-ansi "^6.0.0"
     wrap-ansi "^6.2.0"
 
-clsx@^1.1.1:
-  version "1.1.1"
-  resolved "https://registry.yarnpkg.com/clsx/-/clsx-1.1.1.tgz#98b3134f9abbdf23b2663491ace13c5c03a73188"
-  integrity sha512-6/bPho624p3S2pMyvP5kKBPXnI3ufHLObBFCfgx+LkeR5lg2XYy2hqZqUf45ypD8COn2bhgGJSUE+l5dhNBieA==
+clsx@^1.1.1, clsx@^1.2.1:
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/clsx/-/clsx-1.2.1.tgz#0ddc4a20a549b59c93a4116bb26f5294ca17dc12"
+  integrity sha512-EcR6r5a8bj6pu3ycsa/E/cKVGuTgZJZdsyUYHOksG/UHIiKfjxzRxYJpyVBwYaQeOvghal9fcc4PidlgzugAQg==
 
 co@^4.6.0:
   version "4.6.0"
@@ -4749,10 +4749,12 @@ emoji-emoticon-to-unicode@^0.2.2:
   resolved "https://registry.yarnpkg.com/emoji-emoticon-to-unicode/-/emoji-emoticon-to-unicode-0.2.2.tgz#5ae60d53852d8328b63f31d1ca29897ebb783260"
   integrity sha1-WuYNU4Utgyi2PzHRyimJfrt4MmA=
 
-emoji-picker-react@^3.4.8:
-  version "3.4.8"
-  resolved "https://registry.yarnpkg.com/emoji-picker-react/-/emoji-picker-react-3.4.8.tgz#6d3365a3447f9bb8b39ec1a007cdef39553d3810"
-  integrity sha512-HsKsompl0zThl1jhLaRPHnn0MdPVs9AxJRa5KM7OVnteoCx/tNr9iMipC2rI2vAMkKstlkedirswUwKAu2AsDg==
+emoji-picker-react@^4.3.0:
+  version "4.3.0"
+  resolved "https://registry.yarnpkg.com/emoji-picker-react/-/emoji-picker-react-4.3.0.tgz#b8bb551b56fc031251688eff9d58506adf079fef"
+  integrity sha512-vzjzDRuvjzy0uLQAHSGiW0P9jiFmdZDeHO0jEWzoerv7HYQ33TiAW9GZCM45/l0ePkHWBoFpbjuFan4+5njLVg==
+  dependencies:
+    clsx "^1.2.1"
 
 emoji-regex@^7.0.1:
   version "7.0.3"
